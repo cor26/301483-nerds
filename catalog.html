@@ -1,114 +1,129 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+<body>
 
-  <header class="main-header">
-    <h1 class="visually-hidden">Студия вэб-разработки Нёрдс</h1>
-    <h2 class="visually-hidden">Навигация по сайту</h2>
-    <nav class="main-navigation">
-      <a class="main-header-logo">
-          <img src="img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
-        </a>
-      <ul class="site-navigation">
-        <li><a href="#.html">студия</a></li>
-        <li><a href="#.html">клиент</a></li>
-        <li><a href="#.html">магазин</a></li>
-        <li><a href="#.html">контакты</a></li>
-      </ul>
-      <ul class="basket">
-        <li><a href="#.html">корзина</a></li>
-      </ul>
-    </nav>
-  </header>
+<header class="main-header">
+  <h1 class="visually-hidden">Студия вэб-разработки Нёрдс</h1>
+  <h2 class="visually-hidden">Навигация по сайту</h2>
+  <nav class="main-navigation">
+    <a class="main-header-logo">
+      <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Нёрдс">
+    </a>
+    <ul class="site-navigation">
+      <li><a href="#.html">студия</a></li>
+      <li><a href="#.html">клиент</a></li>
+      <li><a href="#.html">магазин</a></li>
+      <li><a href="#.html">контакты</a></li>
+    </ul>
+    <ul class="basket">
+      <li><a href="#.html">корзина</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <main class="container-catalog">
+<main class="container-catalog">
 
-    <section class="slogan-catalog">
-      <h2 class="slogan-main">Магазин готовых шаблонов</h2>
-    </section>
+  <section class="slogan-catalog">
+    <h2 class="slogan-main">Магазин готовых шаблонов</h2>
+  </section>
 
-    <section class="score">
-      <div class="filter">
-        <h3 class="visually-hidden">Фильтр магазина</h3>
-        <p class="filter-title">Стоимость</p>
-        от 0 до 15000
-        <p class="filter-title">Сетка:</p>
+  <section class="score">
 
-        <p class="filter-title">Особенности:</p>
+    <h3 class="visually-hidden">Фильтр магазина</h3>
+    <h4 class="filter-title">Стоимость</h4>
+    от 0 до 15000
 
-        <a href="#">Показать</a>
-      </div>
-    </section>
 
-    <section class="filter-result">
-      <h3 class="visually-hidden">Результаты поиска</h3>
-      <p class="filter-result">Сортировать:</p>
+    <form class="filter">
+      <ul class="filter-items">
+        <li class="filter-list">
+          <h4 class="filter-title">Сетка:</h4>
+          <p class="filter-grid">
+            <input class="filter-grid-input" type="radio" name="adaptive" id="filter-grid-adaptive">
+            <label for="filter-grid-adaptive">Адаптивная</label>
+          </p>
 
-      <p class="filter-result-sorting"></p>
-      <a href="#">По цене</a>
-      <a href="#">По типу</a>
-      <a href="#">По названию</a>
-      <ul class="filter-result-site">
-        <li>
-          <img src="img/png/sedona-site.png" width="360" height="575" alt="Образец сайта Седона">
+          <p class="filter-grid">
+            <input class="filter-grid-input" type="radio" name="fixed" id="filter-grid-fixed">
+            <label for="filter-grid-fixed">Фиксированная</label>
+          </p>
+
+          <p class="filter-grid">
+            <input class="filter-grid-input" type="radio" name="fixed" id="filter-grid-rubber">
+            <label for="filter-grid-rubber">Резиновая</label>
+          </p>
         </li>
-        <li>
-          <img src="img/png/pink-site.png" width="360" height="576" alt="Образец сайта pink">
-        </li>
-        <li>
-          <img src="img/png/borodinski-site.png" width="360" height="576" alt="Образец сайта borodinski">
-        </li>
-        <li>
-          <img src="img/png/mishka-site.png" width="360" height="576" alt="Образец сайта mishka">
-        </li>
-         <li>
-          <img src="img/png/A+-site.png" width="360" height="576" alt="Образец сайта A+">
-        </li>
-         <li>
-          <img src="img/png/kvast-site.png" width="360" height="576" alt="Образец сайта kvast">
-        </li>
-        
-      </ul>
 
-    </section>
+        <li class="filter-list">
+          <h4 class="filter-title">Особенности:</h4>
+          <p class="filter-features">
+            <input class="filter-features-input" type="checkbox" name="slider" id="filter-feature-slider">
+            <label for="filter-feature-slider">Слайдер</label>
+          </p>
 
-  </main>
+          <p class="filter-features">
+            <input class="filter-features-input" type="checkbox" name="advantages" id="filter-feature-advantages">
+            <label for="filter-feature-advantages">Блок преимуществ</label>
+          </p>
 
-  <footer>
+          <p class="filter-features">
+            <input class="filter-features-input" type="checkbox" name="news" id="filter-feature-news">
+            <label for="filter-feature-news">Новости</label>
+          </p>
 
-    <section class="map">
-      <h2 class="visually-hidden">Карта проезда</h2>
-      <!-- Карта -->
-    </section>
+          <p class="filter-features">
+            <input class="filter-features-input" type="checkbox" name="gallery" id="filter-feature-gallery">
+            <label for="filter-feature-gallery">Галерея</label>
+          </p>
 
-    <section class="social">
-      <h2 class="visually-hidden">Ссылки на социальные сети</h2>
-      <ul class="social-icon">
-        <li>
-          <a class="social-button" href="#">
-            <img src="img/svg/vk-icon.svg" width="26" height="15" alt="Вконтакте">
-          </a>
-        </li>
-        <li>
-          <a class="social-button" href="#">
-            <img src="img/svg/fb-icon.svg" width="26" height="15" alt="Фэйсбук">
-          </a>
-        </li>
-        <li>
-          <a class="social-button" href="#">
-            <img src="img/svg/insta-icon.svg" width="26" height="15" alt="Инстаграм">
-          </a>
+          <p class="filter-features">
+            <input class="filter-features-input" type="checkbox" name="bascet" id="filter-feature-bascet">
+            <label for="filter-feature-bascet">Карзина</label>
+          </p>
         </li>
       </ul>
-      <p class="social-title">Давайте дружить, это выгодно!</p>
-      <p class="social-title">Скидка 10% для друзей из социальных сетей.</p>
-    </section>
+    </form>
 
-  </footer>
+    <a href="#">Показать</a>
 
-  </body>
+  </section>
+
+  <section class="filter-result">
+    <h3 class="visually-hidden">Результаты поиска</h3>
+    <h4 class="filter-result">Сортировать:</h4>
+
+    <p class="filter-result-sorting"></p>
+    <a href="#">По цене</a>
+    <a href="#">По типу</a>
+    <a href="#">По названию</a>
+
+  </section>
+
+</main>
+
+<footer>
+
+  <section class="map">
+    <h2 class="visually-hidden">Карта проезда</h2>
+    <!-- Карта -->
+  </section>
+
+  <section class="social">
+    <h2 class="visually-hidden">Ссылки на социальные сети</h2>
+    <ul class="social-icon">
+      <li><a class="social-button" href="#">Вконтакте</a></li>
+      <li><a class="social-button" href="#">Фэйсбук</a></li>
+      <li><a class="social-button" href="#">Инстаграмм</a></li>
+    </ul>
+    <p class="social-title">Давайте дружить, это выгодно!</p>
+    <p class="social-title">Скидка 10% для друзей из социальных сетей.</p>
+  </section>
+
+</footer>
+
+</body>
 </html>
