@@ -1,8 +1,7 @@
 
-
 body {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 16px;
@@ -61,8 +60,8 @@ a {
   font-size: 16px;
   line-height: 30px;
   font-weight: 700;
-  color: #000000;  
-  background-color: #eeeeee;  
+  color: #000000;
+  background-color: #eeeeee;
 }
 
 .site-navigation,
@@ -75,18 +74,18 @@ a {
   color: #000000;
 }
 
-.site-navigation a:hover ,
+.site-navigation a:hover,
 .basket a:hover {
   color: #fb565a;
 }
 
-.site-navigation a:active ,
+.site-navigation a:active,
 .basket a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
 .slogan-index {
-  background-color: background-color: #eeeeee; 
+  background-color: #eeeeee;
 }
 
 .slogan-main {
@@ -122,7 +121,7 @@ a {
 }
 
 .advantage-button {
-  font: inherit; /*НАследование стилей*/
+  font: inherit;
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
@@ -131,24 +130,12 @@ a {
   border: none;
 }
 
-.advantage-button:nth-child(2){
-  font: inherit; /*НАследование стилей*/
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-  background-color: #00ca74;
-  border: none;
+.advantage-button:nth-child(2) {
+  background-color: #00ca74;             /*не работает*/
 }
 
-.advantage-button:nth-child(3){
-  font: inherit; /*НАследование стилей*/
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
+.advantage-button:nth-child(3) {           /*не работает*/
   background-color: #efc84a;
-  border: none;
 }
 
 
