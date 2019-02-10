@@ -188,3 +188,85 @@ a {
   font-weight: 400;
   color: #000000;
 }
+
+.map-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.map-address {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.map-telephone {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.map-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #fed3d4;
+}
+
+.social-icon {
+  list-style: none;
+}
+
+.social-button {
+  background-color: #f5f5f5;
+}
+
+.social-title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.social-discount {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.popap-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.popap-items {
+  list-style: none;
+}
+
+.popap-text {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.button-send {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #fee0e0;
+}
+
+
