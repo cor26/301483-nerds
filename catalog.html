@@ -16,11 +16,11 @@
     <a class="main-header-logo" href="index.html">
       <img src="img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
     </a>
-    <ul class="site-navigation">
-      <li><a href="#.html">студия</a></li>
-      <li><a href="#.html">клиент</a></li>
-      <li><a href="#.html">магазин</a></li>
-      <li><a href="#.html">контакты</a></li>
+    <ul class="navigation-item">
+      <li class="navigation-list"><a href="#.html">студия</a></li>
+      <li class="navigation-list"><a href="#.html">клиент</a></li>
+      <li class="navigation-list"><a href="#.html">магазин</a></li>
+      <li class="navigation-list"><a href="#.html">контакты</a></li>
     </ul>
     <ul class="basket">
       <li><a href="#.html">корзина</a></li>
@@ -35,13 +35,10 @@
   </section>
 
   <section class="score">
-
-    <h3 class="visually-hidden">Фильтр магазина</h3>
-    <h4 class="filter-title">Стоимость</h4>
-    от 0 до 15000
-
-
     <form class="filter">
+      <h3 class="visually-hidden">Фильтр магазина</h3>
+      <h4 class="filter-title">Стоимость</h4>
+      от 0 до 15000
       <ul class="filter-items">
         <li class="filter-list">
           <h4 class="filter-title">Сетка:</h4>
@@ -89,20 +86,19 @@
           </p>
         </li>
       </ul>
+      <a  class="filter-button" href="#">Показать</a>
     </form>
-
-    <a href="#">Показать</a>
-
   </section>
 
   <section class="filter-result">
     <h3 class="visually-hidden">Результаты поиска</h3>
     <h4 class="filter-result">Сортировать:</h4>
 
-    <p class="filter-result-sorting"></p>
-    <a href="#">По цене</a>
-    <a href="#">По типу</a>
-    <a href="#">По названию</a>
+    <p class="filter-result-list">
+      <a class="filter-result-sorting" href="#">По цене</a>
+      <a class="filter-result-sorting" href="#">По типу</a>
+      <a class="filter-result-sorting" href="#">По названию</a>
+    </p>
 
     <ul class="filter-result-site">
       <li>
@@ -133,7 +129,10 @@
 <footer>
   <section class="map">
     <h2 class="visually-hidden">Карта проезда</h2>
-    <!-- Карта -->
+    <p class="map-title">Nёrds design studio</p>
+    <p class="map-address">191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8 </p>
+    <p class="map-telephone"> тел. +7 (812) 275-75-75</p>
+    <a class="map-button" href="#">Напиши нам</a>
   </section>
 
   <section class="social">
@@ -156,9 +155,35 @@
       </li>
     </ul>
     <p class="social-title">Давайте дружить, это выгодно!</p>
-    <p class="social-title">Скидка 10% для друзей из социальных сетей.</p>
+    <p class="social-discount">Скидка 10% для друзей из социальных сетей.</p>
   </section>
 </footer>
 
+<section class="popap">
+  <h2 class="popap-title">Напиши нам</h2>
+  <form>
+    <ul class="popap-items">
+      <li class="popap-list">
+        <p class="popap-list-title">
+          <label class="popap-text" for="name">Ваше имя:</label>
+          <input class="papap-input" type="text" name="name" id="name">
+        </p>
+      </li>
+      <li class="popap-list">
+        <p class="popap-list-title">
+          <label class="popap-text" for="e-mail">Ваше e-mail:</label>
+          <input class="papap-input" type="text" name="e-mail" id="e-mail">
+        </p>
+      </li>
+      <li class="popap-list">
+        <p class="popap-list-title">
+          <label class="popap-text" for="text">Текст письма:</label>
+          <input class="papap-input" type="text" name="text" id="text">
+        </p>
+      </li>
+    </ul>
+    <button class="button-send" type="submit">Отправить</button>
+  </form>
+</section>
 </body>
 </html>

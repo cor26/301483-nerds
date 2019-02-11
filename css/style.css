@@ -61,24 +61,25 @@ a {
   font-weight: 700;
   color: #000000;
   background-color: #eeeeee;
+  text-transform: uppercase;
 }
 
-.site-navigation,
+.navigation-item,
 .basket {
   list-style: none;
 }
 
-.site-navigation a,
+.navigation-item a,
 .basket a {
   color: #000000;
 }
 
-.site-navigation a:hover,
+.navigation-item a:hover,
 .basket a:hover {
   color: #fb565a;
 }
 
-.site-navigation a:active,
+.navigation-item a:active,
 .basket a:active {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -269,4 +270,68 @@ a {
   background-color: #fee0e0;
 }
 
+/*            2 страница*/
+.filter-items {
+  list-style: none;
+}
 
+.filter-title  {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-grid-input {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.filter-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+}
+
+.filter-button:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+}
+
+.filter-result {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-result-sorting {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+
+.filter-result-sorting:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.filter-result-sorting:active {
+  color: rgba(0, 0, 0, 1);
+}
+
+.filter-result-site {
+  list-style: none;
+}
