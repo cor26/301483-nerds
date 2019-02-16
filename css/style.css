@@ -163,6 +163,10 @@ a {
   list-style: none;
 }
 
+.advantage-list img {
+  margin-bottom: 20px;
+}
+
 .advantage-item {
   width: 300px;
   margin: 0;
@@ -170,13 +174,20 @@ a {
 }
 
 .advantage-item-title {
+  width: 260px;
+  margin: 0 0 20px;
+  padding: 0;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #000000;
 }
 
 .advantage-item-desk {
+  width: 260px;
+  margin: 0 0 35px;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -184,6 +195,9 @@ a {
 }
 
 .advantage-button {
+  width: 120px;
+  margin: 0;
+  padding: 20px;
   font: inherit;
   text-align: center;
   color: #ffffff;
@@ -193,20 +207,30 @@ a {
   border: none;
 }
 
-.advantage-button:nth-child(2) {
-  background-color: #00ca74;             /*не работает*/
+.advantage-item a:nth-child(odd) {
+  background-color: #00ca74;
+  color: #8db1ce/*не работает*/
 }
 
-.advantage-button:nth-child(3) {           /*не работает*/
+.advantage-item > .advantage-button:nth-child(odd) {           /*не работает*/
   background-color: #efc84a;
+  color: #8db1ce/*не работает*/
 }
 
 .statistics-subtitle {
+  width: 660px;
+  margin: 0 0 35px;
+  padding: 0;
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
   color: #000000;
-  text-transform: uppercase;
+}
+
+.statistics-text {
+  width: 630px;
+  margin: 0 0 35px;
+  padding: 0;
 }
 
 .statistics-list{
@@ -214,6 +238,9 @@ a {
 }
 
 .statistics-headline {
+  width: 460px;
+  margin: 0 0 40px;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -222,6 +249,9 @@ a {
 }
 
 .statistics-item {
+  width: 460px;
+  margin: 0 0 25px;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
