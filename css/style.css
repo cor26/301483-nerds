@@ -35,13 +35,14 @@ a {
 }
 
 .button {
+  display: block;
   font: inherit; /*НАследование стилей*/
-
+  font-size: 16px;
+  line-height: 18px;
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-  background-color: #fb565a;
   border: none;
 }
 
@@ -120,11 +121,13 @@ a {
 }
 
 .slogan-index {
+  margin: 0;
+  padding: 0 20px 80px;
   background-color: #eeeeee;
 }
 
 .slogan-main {
-  margin: 0;
+  margin: 0 0 25px 0;
   padding: 0;
   font-size: 55px;
   line-height: 55px;
@@ -133,14 +136,37 @@ a {
 }
 
 .slogan-desc {
+  margin: 0 0 45px 0;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
   color: #283136;
 }
 
+.slogan-button {
+  width: 200px;
+  margin: 0;
+  padding:20px 20px;
+  background-color: #fb565a;
+}
+
+.advantage {
+  padding: 90px 20px;
+}
+
 .advantage-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.advantage-item {
+  width: 300px;
+  margin: 0;
+  padding: 0;
 }
 
 .advantage-item-title {
