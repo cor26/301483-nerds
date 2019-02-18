@@ -151,7 +151,7 @@ a {
 }
 
 .advantage {
-  padding: 90px 20px;
+  padding: 90px 20px 80px;
 }
 
 .advantage-list {
@@ -217,13 +217,13 @@ a {
 }
 
 .statistics {
-  background: #ffffff url("../img/png/nerds.png") no-repeat;
-  background-position: 650px 50px;
+  display: flex;
+  padding: 40px 20px 80px;
 }
 
 .statistics-subtitle {
   width: 660px;
-  margin: 0 0 35px;
+  margin: 40px 0 35px;
   padding: 0;
   font-size: 45px;
   line-height: 45px;
@@ -265,7 +265,17 @@ a {
   color: #000000;
 }
 
+.statistics-progress {
+  width: 380px;
+  background: #ffffff url("../img/png/nerds.png") no-repeat;
+  background-position: 0 0;
+}
+
 .statistics-caption {
+  display: table-caption;
+  width:360px;
+  margin-top: 250px;
+  padding-bottom: 45px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -274,9 +284,13 @@ a {
 }
 
 .statistics-items {
+  display: flex;
   list-style: none;
 }
 .statistics-numbers {
+  width:100px;
+  margin:0;
+  padding:0 0 25px;
   font-size: 45px;
   line-height: 10px;
   font-weight: 700;
@@ -288,6 +302,24 @@ a {
   line-height: 18px;
   font-weight: 400;
   color: #000000;
+}
+
+.customers {
+  margin: 0;
+  padding: 20px 16px 20px;
+}
+
+.customers-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.customers-item li{
+  margin: 15px 35px;
+  padding: 0;
+  list-style: none;
 }
 
 .map-title {
