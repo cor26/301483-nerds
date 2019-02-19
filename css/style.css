@@ -322,7 +322,30 @@ a {
   list-style: none;
 }
 
+.customers a {
+  opacity: 0.2
+}
+
+.customers a:hover {
+  opacity: 1;
+}
+
+.customers a:active {
+  opacity: 0.1;
+}
+
+.map-form {
+  width: 320px;    /*220*/
+  margin: 0;
+  padding: 50px;
+  background-color: green;
+}
+
+
 .map-title {
+  width: 210px;
+  margin: 0 0 25px;
+  padding: 0;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -331,6 +354,9 @@ a {
 }
 
 .map-address {
+  width: 210px;
+  margin: 0 0 20px;
+  padding: 0;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -338,6 +364,9 @@ a {
 }
 
 .map-telephone {
+  width: 210px;
+  margin: 0 0 35px;
+  padding: 0;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -345,6 +374,9 @@ a {
 }
 
 .map-button {
+  width: 160px;
+  margin: 0;
+  padding: 20px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
