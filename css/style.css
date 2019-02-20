@@ -405,9 +405,10 @@ footer {
 
 .social-icon li {
   width: 80px;
+  height: 80px;
   margin: 0 10px 0 0 ;
   padding: 0;
-  border-radius: 40px;
+  border-radius: 50%;
   background-color: #f2f2f2;
 }
 
