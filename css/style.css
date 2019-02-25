@@ -2,7 +2,7 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-  
+
 *,
 *::before,
 *::after {
@@ -346,7 +346,7 @@ a {
 }
 
 .map-form {
-  width: 220px;    /*220*/
+  width: 320px;    /*220*/
   margin: 0;
   padding: 50px;
   background-color: green;
@@ -434,9 +434,6 @@ footer {
   fill: #e37376;
 }
 
-}
-
-
 .social-button {
   display: flex;
   align-items: center;
@@ -490,8 +487,8 @@ footer {
   padding: 0;
 }
 
-.list-list {
-  width: 360px
+.popap-list {
+  width: 360px;
   margin: 0;
   padding: 0;
 }
@@ -506,7 +503,7 @@ footer {
   color: #000000;
 }
 
-.papap-input {
+.popap-input {
   width: 360px;
   margin: 0;
   padding: 20px 10px;
@@ -522,6 +519,17 @@ footer {
 }
 
 /*            2 страница*/
+
+.slogan-index-main {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #000000;
+}
+
 .filter-items {
   list-style: none;
 }
