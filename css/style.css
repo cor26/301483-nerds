@@ -68,7 +68,7 @@ a {
 }
 
 .container {
-  width: 1160px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -487,13 +487,25 @@ footer {
   padding: 0;
 }
 
-.popap-list {
-  width: 360px;
+.popap-list:nth-child(1) {
+  margin: 0 40px 0 0;
+  padding: 0;
+}
+
+.popap-list-title input{
+  width: ;
+  margin: 0;
+  padding: 0;
+}
+
+.popap-list-title:nth-child(3) input{      /*не работает*/
+  width: 760px;
   margin: 0;
   padding: 0;
 }
 
 .popap-text {
+  display: flex;
   width: 160px;
   margin: 0 0 15px 0;
   padding: 0;
@@ -530,7 +542,22 @@ footer {
   color: #000000;
 }
 
+.container-index {
+  display: flex;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+.filter {
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
 .filter-items {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -568,6 +595,31 @@ footer {
 }
 
 .filter-result {
+  margin: 0 0 0 140px;
+  padding: 0;
+}
+
+.filter-sorting {
+  display: flex;
+  margin: 0 0 60px 0;
+  padding: 0;
+}
+
+.filter-title {
+  width: 160px;
+  margin: 0 240px 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-subject {
+  width: 160px;
+  margin: 0 240px 0 0;
+  padding: 0;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -576,6 +628,8 @@ footer {
 }
 
 .filter-result-sorting {
+  margin: 0;
+  padding: 0;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -591,6 +645,19 @@ footer {
   color: rgba(0, 0, 0, 1);
 }
 
+.filter-result-list {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
 .filter-result-site {
+  display: flex;
+  flex-wrap: wrap;
+  width: 760px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
