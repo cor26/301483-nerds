@@ -46,7 +46,7 @@ a {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   font: inherit; /*НАследование стилей*/
   font-size: 16px;
   line-height: 18px;
@@ -155,7 +155,7 @@ a {
 }
 
 .slogan-button {
-  width: 200px;
+  min-width: 200px;
   margin: 0;
   padding:20px 20px;
   background-color: #fb565a;
@@ -205,9 +205,9 @@ a {
 }
 
 .advantage-button {
-  width: 120px;
+  min-width: 120px;
   margin: 0;
-  padding: 20px;
+  padding: 17px 30px;
   font: inherit;
   text-align: center;
   color: #ffffff;
@@ -385,7 +385,7 @@ a {
 }
 
 .map-button {
-  width: 160px;
+  min-width: 160px;
   margin: 0;
   padding: 20px;
   font-size: 16px;
@@ -493,7 +493,6 @@ footer {
 }
 
 .popap-list-title input{
-  width: ;
   margin: 0;
   padding: 0;
 }
@@ -522,6 +521,9 @@ footer {
 }
 
 .popap-button {
+  min-width: 260px;
+  margin: 0;
+  padding: 17px 60px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -543,7 +545,6 @@ footer {
 }
 
 .container-index {
-  display: flex;
   margin: 0;
   padding: 60px 20px;
 }
@@ -577,6 +578,9 @@ footer {
 }
 
 .filter-button {
+  min-width:260px;
+  margin: 0;
+  padding: 17px 60px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
