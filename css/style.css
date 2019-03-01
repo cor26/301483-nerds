@@ -149,7 +149,7 @@ a {
 }
 
 .slogan-index {
-  margin: 0;
+  margin: 0 0 80px 0;
   padding: 0 20px 80px;
   background-color: #eeeeee;
 }
@@ -180,7 +180,7 @@ a {
 }
 
 .advantage {
-  padding: 90px 20px 80px;
+  padding: 0 20px 80px;
 }
 
 .advantage-list {
@@ -247,7 +247,7 @@ a {
 
 .statistics {
   display: flex;
-  padding: 40px 20px 80px;
+  padding: 0 20px 80px;
 }
 
 .statistics-subtitle {
@@ -379,6 +379,7 @@ a {
   margin: 0;
   padding: 50px;
   background-color: green;
+  order: 2;
 }
 
 
@@ -495,7 +496,6 @@ footer {
   width: 960px;
   margin: 0;
   padding: 70px 100px 85px 100px;
-  background-color: blue;
 }
 
 .popap-title {
@@ -521,15 +521,21 @@ footer {
   padding: 0;
 }
 
-.popap-list-title input{
-  margin: 0;
-  padding: 0;
+.popap-list-title {
+  margin: 0 0 50px 0;
 }
 
-.popap-list-title:nth-child(3) input{      /*не работает*/
+.popap-list-title input{
+  margin: 0 ;
+  padding: 18px 60px 18px 13px;
+}
+
+.popap-input-text {      /*не работает*/
+  height:115px;
   width: 760px;
   margin: 0;
   padding: 0;
+  vertical-align: top;
 }
 
 .popap-text {
@@ -558,7 +564,7 @@ footer {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #fee0e0;
+  background-color: #fb565a;
 }
 
 /*            2 страница*/
@@ -575,7 +581,7 @@ footer {
 
 .container-index {
   margin: 0;
-  padding: 60px 0;
+  padding: 0 0 60px 0;
 }
 
 .filter {
