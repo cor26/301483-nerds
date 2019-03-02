@@ -228,14 +228,13 @@ a {
   padding: 17px 30px;
   font: inherit;
   text-align: center;
-  color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
   background-color: #fb565a;
   border: none;
 }
 
-.advantage-item a:nth-child(odd) {
+.advantage-item a:nth-child(3n) {
   background-color: #00ca74;
   color: #8db1ce/*не работает*/
 }
@@ -375,11 +374,13 @@ a {
 }
 
 .map-form {
+  position: absolute;
+  top: 50px;
+  left: 20px;
   width: 320px;
   margin: 0;
   padding: 50px;
-  background-color: green;
-  order: 2;
+  background-color: #ffffff;
 }
 
 
@@ -417,13 +418,13 @@ a {
 .map-button {
   min-width: 160px;
   margin: 0;
-  padding: 20px;
+  padding: 17px 30px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #fed3d4;
+  background-color: #fb565a;
 }
 
 footer {
@@ -493,6 +494,9 @@ footer {
 }
 
 .popap {
+  position: relative;
+  /*display: none;*/
+
   width: 960px;
   margin: 0;
   padding: 70px 100px 85px 100px;
@@ -506,6 +510,18 @@ footer {
   line-height: 45px;
   font-weight: 700;
   color: #000000;
+}
+
+.popap-title:before {
+  position: absolute;
+  content: "";
+  top: 80px;
+  right:90px;
+  height: 21px;
+  width: 21px;
+  background-image: url("../img/svg/close-cross.svg");
+  background-repeat: no-repeat;
+  background-position: 0;
 }
 
 .popap-items {
