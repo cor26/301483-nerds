@@ -755,6 +755,36 @@ footer {
 }
 
 .filter-result-site li:nth-child(odd){
-  margin: 0 40px 40px 0;
+  margin: 0 36px 36px 0;
   padding: 0;
+}
+
+.filter-result-circle {
+  position: relative;
+}
+
+.filter-result-circle>span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+}
+
+.filter-result-box {
+  position: relative;
+  height: 615px;
+  width: 362px;
+  background-color: #e5e5e5;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+}
+
+.filter-result-box img{
+  position: absolute;
+  top: 38px;
+  right: 1px;
 }
