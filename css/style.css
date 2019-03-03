@@ -89,6 +89,14 @@ a {
   padding: 0 0 0 20px;
 }
 
+.main-header-logo:hover {
+  opacity: 0.8;
+}
+
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
 .main-navigation-wrapper {
   display: flex;
 }
@@ -117,9 +125,14 @@ a {
 }
 
 .navigation-list {
-  width: 100px;
-  margin: 0;
+  width: 75px;
+  margin: 0 25px 0 0;
   padding: 0 10px 0 0;
+  text-align: center;
+}
+
+.navigation-list-active a {
+  border-bottom: 2px solid #fb565a;
 }
 
 .basket {
@@ -145,7 +158,6 @@ a {
   background-image: url("../img/svg/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-
 }
 
 .slogan-index {
@@ -370,7 +382,6 @@ a {
 
 .photo-map {
   background-position: 0 0;
-
 }
 
 .map-form {
@@ -382,7 +393,6 @@ a {
   padding: 50px;
   background-color: #ffffff;
 }
-
 
 .map-title {
   width: 210px;
@@ -496,7 +506,6 @@ footer {
 .popap {
   position: relative;
   /*display: none;*/
-
   width: 960px;
   margin: 0;
   padding: 70px 100px 85px 100px;
@@ -522,6 +531,15 @@ footer {
   background-image: url("../img/svg/close-cross.svg");
   background-repeat: no-repeat;
   background-position: 0;
+  opacity: 0.1;
+}
+
+.popap-title:hover:before {
+  opacity: 1;
+}
+
+.popap-title:active:before {
+  opacity: 0.3;
 }
 
 .popap-items {
@@ -541,34 +559,53 @@ footer {
   margin: 0 0 50px 0;
 }
 
+.popap-text {
+   display: flex;
+   width: 160px;
+   margin: 0 0 15px 0;
+   padding: 0;
+   font-size: 16px;
+   line-height: 18px;
+   font-weight: 700;
+   color: #000000;
+ }
+
 .popap-list-title input{
+  width: 360px;
   margin: 0 ;
   padding: 18px 60px 18px 13px;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+  outline: 0;
 }
 
-.popap-input-text {      /*не работает*/
-  height:115px;
+.popap-list-title input:hover{
+  border: 2px solid #b4b9bb;
+}
+
+.popap-list-title input:focus{
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.popap-list-title textarea {
+  min-height: 115px;
   width: 760px;
   margin: 0;
-  padding: 0;
-  vertical-align: top;
+  padding: 18px 60px 18px 13px;
+  resize: none;
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+  outline: none;
 }
 
-.popap-text {
-  display: flex;
-  width: 160px;
-  margin: 0 0 15px 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 700;
+.popap-list-title textarea:hover{
+  border: 2px solid #b4b9bb;
+}
+
+.popap-list-title textarea:focus{
   color: #000000;
-}
-
-.popap-input {
-  width: 360px;
-  margin: 0;
-  padding: 20px 10px;
+  border: 2px solid #000000;
 }
 
 .popap-button {
@@ -576,7 +613,6 @@ footer {
   margin: 0;
   padding: 17px 60px;
   font-size: 16px;
-
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -596,6 +632,7 @@ footer {
 }
 
 .container-index {
+  display: flex;
   margin: 0;
   padding: 0 0 60px 0;
 }
@@ -715,4 +752,9 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.filter-result-site li:nth-child(odd){
+  margin: 0 40px 40px 0;
+  padding: 0;
 }
