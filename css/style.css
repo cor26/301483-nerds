@@ -55,6 +55,7 @@ a {
   vertical-align: middle;
   text-transform: uppercase;
   border: none;
+  border-radius: 3px;
 }
 
 .button:hover {
@@ -751,6 +752,7 @@ footer {
 }
 
 .filter-result-site {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 760px;
@@ -759,37 +761,115 @@ footer {
   list-style: none;
 }
 
-.filter-result-site li:nth-child(odd){
-  margin: 0 36px 36px 0;
-  padding: 0;
-}
-
-.filter-result-circle {
+.filter-result-site li{
   position: relative;
 }
 
-.filter-result-circle>span {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: #ffffff;
+.filter-result-site li:nth-child(even){
+  margin: 0 0 36px 0;
+  padding: 0;
+}
 
+.filter-result-site li:nth-child(odd){
+  margin: 0 36px 36px 0;
+  padding: 0;
 }
 
 .filter-result-box {
   position: relative;
   height: 615px;
   width: 362px;
-  background-color: #e5e5e5;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 5px;
+}
+
+.filter-result-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 360px;
+  height:40px;
+  background-image: url("../img/svg/browser.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.12;
+}
+
+.filter-result-box:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 360px;
+  height:40px;
+  background-image: url("../img/svg/browser.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 1;
 }
 
 .filter-result-box img{
+  position: relative;
+  margin-top: 40px;
+  order: 2;
+}
+
+.filter-background {
   position: absolute;
-  top: 38px;
-  right: 1px;
+  bottom: -2px;
+  left: -1px;
+  height: 575px;
+  width: 362px;
+  background-color: #e5e5e5;
+  order: 1;
+}
+
+.filter-popap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 230px;
+  width: 360px;
+  margin: 0;
+  padding: 25px 80px 45px;
+  background-color: #eeeeee;
+  order: 3;
+}
+
+.filter-popap-title {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+.filter-popap-text {
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  color: #666666;
+}
+
+.filter-popap-button {
+  width: 200px;
+  margin: 0 auto;
+  padding: 17px 40px;
+  font-size: 16px;
+  line-height: 18px;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #fb565a;
 }
