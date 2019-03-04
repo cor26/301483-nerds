@@ -632,6 +632,11 @@ footer {
 }
 
 .container-index {
+  margin: 0;
+  padding: 0 0 60px 0;
+}
+
+.container-index-score {
   display: flex;
   margin: 0;
   padding: 0 0 60px 0;
