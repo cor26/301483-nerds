@@ -698,6 +698,12 @@ footer {
 }
 
 .filter-sorting {
+   display: flex;
+   margin: 0 0 60px 0;
+   padding: 0;
+ }
+
+.filter-sorting {
   display: flex;
   margin: 0 0 60px 0;
   padding: 0;
@@ -830,7 +836,7 @@ footer {
   height: 230px;
   width: 360px;
   margin: 0;
-  padding: 25px 80px 45px;
+  padding: 25px 60px 45px;
   background-color: #eeeeee;
   order: 3;
 }
@@ -840,7 +846,6 @@ footer {
   padding: 0;
   font-size: 18px;
   line-height: 30px;
-  font: inherit;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -853,7 +858,6 @@ footer {
   padding: 0;
   font-size: 16px;
   line-height: 18px;
-  font: inherit;
   text-align: center;
   vertical-align: middle;
   font-weight: 400;
@@ -861,6 +865,7 @@ footer {
 }
 
 .filter-popap-button {
+  display: block;
   width: 200px;
   margin: 0 auto;
   padding: 17px 40px;
