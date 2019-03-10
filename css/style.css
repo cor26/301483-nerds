@@ -56,6 +56,7 @@ a {
   text-transform: uppercase;
   border: 3px solid transparent;
   border-radius: 3px;
+  word-break: break-all;
 }
 
 .button:hover {
@@ -78,7 +79,7 @@ a {
 
 .main-navigation {
   display: flex;
-  padding-bottom: 85px;
+  padding: 0 20px 85px;
   font-size: 16px;
   line-height: 30px;
   font-weight: 700;
@@ -88,8 +89,8 @@ a {
 }
 
 .main-header-logo {
-  margin: 0 200px 0 0;
-  padding: 0 0 0 20px;
+  margin: 0 180px 0 0;
+  padding: 0;
 }
 
 .main-header-logo:hover {
@@ -106,7 +107,7 @@ a {
 
 .navigation-item {
   display: flex;
-  margin: 0 230px 0 0;
+  margin: 0 210px 0 0;
   padding: 30px 0 10px;
   list-style: none;
 }
@@ -115,6 +116,7 @@ a {
 .basket a {
   display: block;
   color: #000000;
+  word-break: break-all;
 }
 
 .navigation-item a:hover,
@@ -128,7 +130,7 @@ a {
 }
 
 .navigation-list {
-  width: 75px;
+  width: 95px;
   margin: 0 25px 0 0;
   padding: 0 10px 0 0;
   text-align: center;
@@ -140,7 +142,7 @@ a {
 
 .basket {
   display: flex;
-  width: 100px;
+  width: 130px;
   margin: 0;
   padding: 30px 0 10px;
   list-style: none;
@@ -176,6 +178,7 @@ a {
   line-height: 55px;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .slogan-desc {
@@ -185,6 +188,7 @@ a {
   line-height: 24px;
   font-weight: 700;
   color: #283136;
+  word-break: break-all;
 }
 
 .slogan-button {
@@ -225,6 +229,7 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+  word-break: break-all;
 }
 
 .advantage-item-desk {
@@ -235,6 +240,7 @@ a {
   line-height: 24px;
   font-weight: 700;
   color: #283136;
+  word-break: break-all;
 }
 
 /*.advantage-button {
@@ -328,12 +334,14 @@ li  .advantage-button:nth-child(even) {
   line-height: 45px;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .statistics-text {
   width: 630px;
   margin: 0 0 35px;
   padding: 0;
+  word-break: break-all;
 }
 
 .statistics-list{
@@ -352,6 +360,7 @@ li  .advantage-button:nth-child(even) {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .statistics-item {
@@ -362,6 +371,7 @@ li  .advantage-button:nth-child(even) {
   line-height: 24px;
   font-weight: 400;
   color: #000000;
+  word-break: break-all;
 }
 
 .statistics-progress {
@@ -380,6 +390,7 @@ li  .advantage-button:nth-child(even) {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .statistics-items {
@@ -402,6 +413,7 @@ li  .advantage-button:nth-child(even) {
   line-height: 18px;
   font-weight: 400;
   color: #000000;
+  word-break: break-all;
 }
 
 .customers {
@@ -463,6 +475,7 @@ li  .advantage-button:nth-child(even) {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .map-address {
@@ -473,6 +486,7 @@ li  .advantage-button:nth-child(even) {
   line-height: 18px;
   font-weight: 700;
   color: #666666;
+  word-break: break-all;
 }
 
 .map-telephone {
@@ -483,6 +497,7 @@ li  .advantage-button:nth-child(even) {
   line-height: 18px;
   font-weight: 700;
   color: #666666;
+  word-break: break-all;
 }
 
 .map-button {
@@ -550,6 +565,7 @@ footer {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .social-discount {
@@ -560,13 +576,21 @@ footer {
   line-height: 22px;
   font-weight: 700;
   color: #444444;
+  word-break: break-all;
 }
 
 .popap {
-  position: relative;
   /*display: none;*/
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+}
+
+.modal {
+  bottom: 50px;
+  left: 50%;
   width: 960px;
-  margin: 0;
+  margin-left: -480px;
   padding: 70px 100px 85px 100px;
 }
 
@@ -579,6 +603,7 @@ footer {
   font-weight: 700;
   color: #000000;
 }
+
 
 .popap-title:before {
   position: absolute;
@@ -627,6 +652,7 @@ footer {
    line-height: 18px;
    font-weight: 700;
    color: #000000;
+  word-break: break-all;
  }
 
 .popap-list-title input{
@@ -688,6 +714,7 @@ footer {
   line-height: 55px;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .container-index {
@@ -708,12 +735,6 @@ footer {
   background-color: yellow;
 }
 
-.filter-items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .filter-title  {
   width: 160px;
   margin: 0 240px 0 0;
@@ -723,6 +744,24 @@ footer {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
+}
+.filter-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filter-subject {
+  min-width: 180px;
+  margin: 0 240px 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  word-break: break-all;
 }
 
 .filter-grid-input {
@@ -772,9 +811,11 @@ footer {
 
 .filter-features-input + label {
   position: relative;
+  min-width: 100px;
   margin: 0;
   padding: 0 0 0 35px;
   cursor: pointer;
+  word-break: break-word;
 }
 
 .filter-features-input + label::before {
@@ -850,18 +891,10 @@ footer {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
-.filter-subject {
-  width: 160px;
-  margin: 0 240px 0 0;
-  padding: 0;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-}
+
 
 .filter-result-sorting {
   margin: 0 20px 0 0;
@@ -871,6 +904,7 @@ footer {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .filter-result-sorting:hover {
@@ -1020,6 +1054,7 @@ footer {
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .filter-popap-text {
@@ -1031,6 +1066,7 @@ footer {
   vertical-align: middle;
   font-weight: 400;
   color: #666666;
+  word-break: break-all;
 }
 
 .filter-popap-button {
