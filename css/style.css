@@ -580,7 +580,7 @@ footer {
 }
 
 .popap {
-  /*display: none;*/
+  display: none;
   position: fixed;
   background-color: #ffffff;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
