@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -104,6 +104,7 @@ a {
 
 .navigation-item {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 210px 0 0;
   padding: 30px 0 10px;
   list-style: none;
@@ -139,6 +140,7 @@ a {
 
 .basket {
   display: flex;
+  flex-wrap: wrap;
   width: 130px;
   margin: 0;
   padding: 30px 0 10px;
@@ -214,8 +216,8 @@ a {
 .slider-controls .active::before {
   content: "";
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 55%;
+  top: 55%;
   z-index: 2;
   width: 4px;
   height: 4px;
@@ -236,7 +238,7 @@ a {
   padding: 0 0 80px 0;
 }
 
-.slider-item:nth-child(3) {
+.slider-item:nth-child(1) {
   display: block;
 }
 
@@ -299,12 +301,12 @@ a {
 
 
 
-/*.slogan-index {
+.slogan-index {
   margin: 0 0 80px 0;
   padding: 0 20px 80px;
   background-color: #eeeeee;
 }
-
+/*
 .slogan-main {
   margin: 0 0 25px 0;
   padding: 0;
@@ -540,6 +542,7 @@ li  .advantage-button:nth-child(even) {
   line-height: 10px;
   font-weight: 700;
   color: #000000;
+  word-break: break-all;
 }
 
 .statistics-advantages {
@@ -557,6 +560,7 @@ li  .advantage-button:nth-child(even) {
 
 .customers-item {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -657,6 +661,7 @@ footer {
 
 .social-icon {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 140px 0 0;
   padding: 0;
   width: 260px;
@@ -859,7 +864,7 @@ footer {
 .container-index-score {
   display: flex;
   margin: 0;
-  padding: 0 0 60px 0;
+  padding: 0 20px 60px;
 }
 
 .filter {
@@ -1300,6 +1305,10 @@ footer {
   font-weight: 700;
   color: #000000;
   word-break: break-all;
+}
+
+.filter-popap-title a{
+  color: #000000;
 }
 
 .filter-popap-text {
