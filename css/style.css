@@ -49,7 +49,7 @@ a {
   display: inline-block;
   font: inherit; /*НАследование стилей*/
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 18px;
   text-align: center;
   color: #ffffff;
@@ -373,6 +373,7 @@ li  .advantage-button:nth-child(even) {
   margin: 0;
   padding: 10px 30px;
   font: inherit;
+  font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -385,6 +386,7 @@ li  .advantage-button:nth-child(even) {
   margin: 0;
   padding: 10px 30px;
   font: inherit;
+  font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -408,6 +410,7 @@ li  .advantage-button:nth-child(even) {
   margin: 0;
   padding: 10px 30px;
   font: inherit;
+  font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -428,7 +431,9 @@ li  .advantage-button:nth-child(even) {
 
 .statistics {
   display: flex;
-  padding: 35px 20px 49px;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 35px 0 49px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 }
@@ -454,7 +459,7 @@ li  .advantage-button:nth-child(even) {
   padding: 0;
   font-weight: 400;
   color: #283136;
-  word-break: break-all;
+  word-break: word-break;
 }
 
 .statistics-list{
@@ -542,8 +547,9 @@ li  .advantage-button:nth-child(even) {
 }
 
 .customers {
-  margin: 0;
-  padding: 35px 29px 25px 16px;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 35px 0 25px;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -552,8 +558,15 @@ li  .advantage-button:nth-child(even) {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 1156px;
-  margin: 0;
+  width: 1088px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.customers-item li{
+  position: relative;
+  margin: 15px 0;
   padding: 0;
   list-style: none;
 }
@@ -574,7 +587,7 @@ li  .advantage-button:nth-child(even) {
   width: 2px;
   height: 52px;
   background-color: #eeeeee;
-  top: 16px;
+  top: 0;
   left: -47px;
 }
 
@@ -586,13 +599,6 @@ li  .advantage-button:nth-child(even) {
   background-color: #eeeeee;
   top: 16px;
   left: -47px;
-}
-
-.customers-item li{
-  position: relative;
-  margin: 15px 35px;
-  padding: 0;
-  list-style: none;
 }
 
 .customers a {
@@ -685,7 +691,7 @@ footer {
 .social-icon {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 131px 0 0;
+  margin: -10px 131px 0 0;
   padding: 0;
   width: 270px;
   list-style: none;
@@ -697,7 +703,7 @@ footer {
   justify-content: center;
   width: 80px;
   height: 76px;
-  margin: 0 10px 0 0;
+  margin: 10px 10px 0 0;
   padding: 0;
   border-radius: 50%;
   background-color: #f2f2f2;
@@ -905,9 +911,8 @@ footer {
   margin: 0;
   padding: 0;
   border: none;
-  /* Для демонстрации */
   width: 260px;
-  margin: 50px auto;
+  margin: 0 auto 50px;
 }
 
 .range-filter {
