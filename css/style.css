@@ -79,7 +79,7 @@ a {
   display: flex;
   padding: 0 20px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 35px;
   color: #000000;
   background-color: #eeeeee;
   text-transform: uppercase;
@@ -108,7 +108,7 @@ a {
   justify-content: space-between;
   width: 455px;
   margin: 0 281px 0 0;
-  padding: 27px 0 10px;
+  padding: 25px 0 10px;
   list-style: none;
 }
 
@@ -244,8 +244,8 @@ a {
 .slider-item:nth-child(1) {
   background: url("../img/png/slide-1.png");
   background-repeat: no-repeat;
-  background-position: 93% 8px;
-  padding-top: 68px;
+  background-position: 93% 6px;
+  padding-top: 66px;
 }
 
 .slider-item:nth-child(2) {
@@ -298,8 +298,8 @@ a {
 }
 
 .slogan-index {
-  margin: 0 0 80px 0;
-  padding: 0 20px 80px;
+  margin: 0 0 61px 0;
+  padding: 0 20px 107px;
   background-color: #eeeeee;
 }
 
@@ -455,7 +455,7 @@ li  .advantage-button:nth-child(even) {
 
 .statistics-text {
   width: 630px;
-  margin: 0 0 37px;
+  margin: 0 0 38px;
   padding: 0;
   font-weight: 400;
   color: #283136;
@@ -471,7 +471,7 @@ li  .advantage-button:nth-child(even) {
 
 .statistics-headline {
   width: 460px;
-  margin: 0 0 25px;
+  margin: 0 0 24px;
   padding: 0;
   font-size: 16px;
   line-height: 24px;
@@ -871,7 +871,7 @@ footer {
 
 .slogan-index-main {
   margin: 0 auto;
-  padding: 0;
+  padding: 67px 0 0 0;
   text-align: center;
   font-size: 55px;
   line-height: 55px;
@@ -898,10 +898,10 @@ footer {
 
 .filter-title  {
   width: 160px;
-  margin: 0 240px 0 0;
+  margin: 0 238px 0 0;
   padding: 0;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 15px;
   color: #000000;
   text-transform: uppercase;
   word-break: break-all;
@@ -1134,19 +1134,19 @@ footer {
 }
 
 .filter-result {
-  margin: 0 0 0 140px;
+  margin: 0 0 0 141px;
   padding: 0;
 }
 
 .filter-sorting {
    display: flex;
-   margin: 0 0 60px 0;
+   margin: 0 0 49px 0;
    padding: 0;
  }
 
 .filter-sorting {
   display: flex;
-  margin: 0 0 60px 0;
+  margin: 0 0 49px 0;
   padding: 0;
 }
 
@@ -1155,7 +1155,7 @@ footer {
   margin: 0 240px 0 0;
   padding: 0;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 15px;
   color: #000000;
   text-transform: uppercase;
   word-break: break-all;
@@ -1230,7 +1230,7 @@ footer {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 760px;
+  width: 762px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1246,7 +1246,7 @@ footer {
 }
 
 .filter-result-site li:nth-child(odd){
-  margin: 0 36px 36px 0;
+  margin: 0 38px 36px 0;
   padding: 0;
 }
 
@@ -1285,7 +1285,7 @@ footer {
 
 .filter-result-box img{
   position: relative;
-  margin-top: 40px;
+  margin-top: 41px;
   order: 2;
 }
 
@@ -1294,7 +1294,7 @@ footer {
   bottom: -2px;
   left: -1px;
   height: 575px;
-  width: 362px;
+  width: 360px;
   background-color: #e5e5e5;
   order: 1;
 }
@@ -1306,7 +1306,7 @@ footer {
   height: 230px;
   width: 360px;
   margin: 0;
-  padding: 25px 60px 45px;
+  padding: 27px 60px 45px;
   background-color: #eeeeee;
   order: 3;
 }
@@ -1328,7 +1328,8 @@ footer {
 }
 
 .filter-popap-text {
-  margin: 0 0 30px 0;
+  width: 180px;
+  margin: 0 auto 30px;
   padding: 0;
   font-size: 16px;
   line-height: 18px;
@@ -1341,9 +1342,9 @@ footer {
 
 .filter-popap-button {
   display: block;
-  width: 200px;
+  width: 199px;
   margin: 0 auto;
-  padding: 17px 40px;
+  padding: 13px 40px;
   font-size: 16px;
   line-height: 18px;
   font: inherit;
