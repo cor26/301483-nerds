@@ -912,7 +912,7 @@ footer {
   padding: 0;
   border: none;
   width: 260px;
-  margin: 0 auto 50px;
+  margin: 0 auto 54px;
 }
 
 .range-filter {
@@ -929,7 +929,7 @@ footer {
 .range-controls {
   position: relative;
   height: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -979,12 +979,13 @@ footer {
   width: 50%;
   font-size: 16px;
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .price-controls input {
   width: 80px;
-  padding: 8px 10px;
-  margin-left: 10px;
+  padding: 10px 10px;
+  margin-left: 6px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 16px;
   text-align: center;
@@ -998,28 +999,20 @@ footer {
   text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .filter-items {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.filter-list-grid {
+  margin: 0 0 41px 0;
+  padding: 0;
+}
+
+.filter-list-subject {
+  margin: 0 0 45px 0;
+  padding: 0;
 }
 
 .filter-subject {
@@ -1044,14 +1037,20 @@ footer {
   position: relative;
   margin: 0;
   padding: 0 0 0 35px;
+  font-weight: 400;
   cursor: pointer;
 }
+
+.filter-features-input + label {
+  font-weight: 400;
+}
+
 
 .filter-grid-input + label::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: 1px;
   height: 25px;
   width: 25px;
   background-image: url("../img/svg/radio-off.svg");
@@ -1090,8 +1089,8 @@ footer {
 .filter-features-input + label::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: 1px;
   height: 24px;
   width: 24px;
   background-image: url("../img/svg/checkbox-off.svg");
@@ -1114,7 +1113,7 @@ footer {
 .filter-button {
   min-width:260px;
   margin: 0;
-  padding: 17px 60px;
+  padding: 16px 60px;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
@@ -1194,7 +1193,7 @@ footer {
 }
 
 .filter-icon-down {
-   margin-right: 18px;
+  margin-right: 18px;
   opacity: 0.3;
 }
 
@@ -1231,7 +1230,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 762px;
-  margin: 0;
+  margin: 0 0 28px;
   padding: 0;
   list-style: none;
 }
@@ -1254,6 +1253,7 @@ footer {
   position: relative;
   height: 615px;
   width: 362px;
+  margin: -2px 0 0;
 }
 
 .filter-result-box:before {
@@ -1285,7 +1285,7 @@ footer {
 
 .filter-result-box img{
   position: relative;
-  margin-top: 41px;
+  margin-top: 42px;
   order: 2;
 }
 
@@ -1300,6 +1300,7 @@ footer {
 }
 
 .filter-popap {
+  display: none;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1353,4 +1354,46 @@ footer {
   font-weight: 400;
   color: #ffffff;
   background-color: #fb565a;
+}
+
+.filter-paginator {
+  width: 460px;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.filter-paginator a {
+  display: inline-block;
+  min-width: 50px;
+  padding: 15px 21px;
+  margin: 0 5px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.filter-paginator a:hover {
+  background-color: #dfdfdf;
+}
+
+.filter-paginator a:active {
+  color: color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.filter-paginator .paginator-active{
+  padding: 13px 17px;
+  background-color: #ffffff;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.filter-paginator .next {
+  min-width: 260px;
+  padding: 15px 21px;
+  margin: 0 5px 0 0;
 }
