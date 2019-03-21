@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapiis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -34,7 +34,7 @@
 
     <main class="container-index-score">
       <section class="score">   <!--НУЖНА???????????-->
-        <form class="filter">
+        <form class="filter" method="post" action="https://echo.htmlacademy.ru">
           <h3 class="visually-hidden">Фильтр магазина</h3>
           <fieldset class="filter-item">
             <legend>Стоимость:</legend>
@@ -212,7 +212,7 @@
         <p class="map-title">Nёrds design studio</p>
         <p class="map-address">191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8 </p>
         <p class="map-telephone"> тел. +7 (812) 275-75-75</p>
-        <a class="map-button button" href="#">Напиши нам</a>
+        <a class="map-button button" href="#">Напишите нам</a>
       </div>
     </section>
 
@@ -254,7 +254,7 @@
 
     <section class="popap modal">
       <h2 class="popap-title">Напиши нам</h2>
-      <form class="popap-form">
+      <form method="post" action="https://echo.htmlacademy.ru">
         <ul class="popap-items">
           <li class="popap-list">
             <p class="popap-list-title">
@@ -276,8 +276,10 @@
           </li>
         </ul>
         <button class="popap-button button" type="submit">Отправить</button>
+        <button class="modal-close" type="button" aria-label="Закрыть"></button>
       </form>
     </section>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
