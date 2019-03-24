@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto Medium", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -145,7 +145,7 @@ a {
   flex-wrap: wrap;
   width: 78px;
   margin: 0;
-  padding: 27px 0 10px;
+  padding: 24px 0 10px;
   list-style: none;
 }
 
@@ -156,7 +156,7 @@ a {
 .basket-link:before {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 9px;
   right: 99px;
   width: 15px;
   height:15px;
@@ -262,8 +262,7 @@ a {
 
 .slider-item h3 {
   max-width: 600px;
-  margin: 0;
-  margin-bottom: 26px;
+  margin: 0 0 26px 0;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -271,8 +270,7 @@ a {
 
 .slider-item p {
   max-width: 430px;
-  margin: 0;
-  margin-bottom: 39px;
+  margin: 0 0 39px 0;
   font-weight: 400;
 }
 
@@ -371,27 +369,25 @@ li  .advantage-button:nth-child(even) {
 .advantage-button-site {
   min-width: 160px;
   margin: 0;
-  padding: 10px 30px;
+  padding: 13px 30px;
   font: inherit;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
   background-color: #fb565a;
-  border: 3px solid transparent;
 }
 
 .advantage-button-application {
   min-width: 160px;
   margin: 0;
-  padding: 10px 30px;
+  padding: 13px 30px;
   font: inherit;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
   background-color: #00ca74;
-  border: 3px solid transparent;
 }
 
 .advantage-button-application:hover {
@@ -402,20 +398,18 @@ li  .advantage-button:nth-child(even) {
 .advantage-button-application:active {
   background-color: #00aa62;
   color: rgba(255, 255, 255, 0.3);
-  border-top: 3px solid #009958;
 }
 
 .advantage-button-presentation {
   min-width: 160px;
   margin: 0;
-  padding: 10px 30px;
+  padding: 13px 30px;
   font: inherit;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
   background-color: #efc84a;
-  border: 3px solid transparent;
 }
 
 .advantage-button-presentation:hover {
@@ -426,7 +420,6 @@ li  .advantage-button:nth-child(even) {
 .advantage-button-presentation:active {
   background-color: #e5a722;
   color: rgba(255, 255, 255, 0.302);
-  border-top: 3px solid #ce961f;
 }
 
 .statistics {
@@ -503,7 +496,7 @@ li  .advantage-button:nth-child(even) {
 .statistics-progress {
   width: 380px;
   background: #ffffff url("../img/png/nerds.png") no-repeat;
-  background-position: 0 6px;
+  background-position: 1px 5px;
 }
 
 .statistics-caption {
@@ -534,7 +527,7 @@ li  .advantage-button:nth-child(even) {
 }
 
 .statistics-numbers sup{
-  font-size: 25px;
+  font-size: 28px;
   line-height: 10px;
   color: #000000;
 }
@@ -549,56 +542,70 @@ li  .advantage-button:nth-child(even) {
 .customers {
   width: 1160px;
   margin: 0 auto;
-  padding: 35px 0 25px;
+  padding: 35px 0 44px;
   border-bottom: 2px solid #eeeeee;
 }
 
 .customers-item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 1088px;
-  margin: 0 auto;
-  padding: 0;
+  width: 1117px;
+  margin: 0;
+  padding: 0 0px 0px 31px;
   list-style: none;
 }
 
-.customers-item li{
+.customers-list{
   position: relative;
-  margin: 15px 0;
-  padding: 0;
+  align-self: center;
+  margin: 11px 96px 0 0;
   list-style: none;
+}
+
+.customers-list:nth-child(1){
+  position: relative;
+  margin: 20px 96px 0 0;
+  list-style: none;
+}
+
+.customers-list:nth-child(4n+3) {
+  position: relative;
+  margin: 11px 28px 0 7px;
+}
+
+.customers-list:nth-child(4n) {
+  position: relative;
+  margin: 17px 0 0 auto;
+}
+
+.customers-item li:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -51px;
+  width: 2px;
+  height: 52px;
+  background-color: #eeeeee;
 }
 
 .customers-item li:nth-child(2)::before {
   content: "";
   position: absolute;
+  top: 18px;
+  right: -46px;
   width: 2px;
   height: 52px;
   background-color: #eeeeee;
-  top: 16px;
-  left: -47px;
 }
 
 .customers-item li:nth-child(3)::before {
   content: "";
   position: absolute;
+  top: 0px;
+  right: -58px;
   width: 2px;
   height: 52px;
   background-color: #eeeeee;
-  top: 0;
-  left: -47px;
-}
-
-.customers-item li:nth-child(4)::before {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 52px;
-  background-color: #eeeeee;
-  top: 16px;
-  left: -47px;
 }
 
 .customers a {
@@ -659,7 +666,7 @@ li  .advantage-button:nth-child(even) {
 
 .map-telephone {
   width: 210px;
-  margin: 0 0 37px;
+  margin: 0 0 36px;
   padding: 0;
   font-size: 16px;
   line-height: 18px;
@@ -702,8 +709,8 @@ footer {
   align-items: center;
   justify-content: center;
   width: 80px;
-  height: 76px;
-  margin: 10px 10px 0 0;
+  height: 79px;
+  margin: 8px 10px 0 0;
   padding: 0;
   border-radius: 50%;
   background-color: #f2f2f2;
@@ -857,13 +864,13 @@ footer {
 }
 
 .popap-text {
-   display: flex;
-   width: 160px;
-   margin: 0 0 15px 0;
-   padding: 0;
-   font-size: 16px;
-   line-height: 18px;
-   color: #000000;
+  display: flex;
+  width: 160px;
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
   word-break: break-all;
  }
 
@@ -913,6 +920,7 @@ footer {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #fb565a;
+  border: none;
 }
 
 /*            2 страница*/
@@ -956,11 +964,10 @@ footer {
 }
 
 .filter-item {
-  margin: 0;
-  padding: 0;
-  border: none;
   width: 260px;
+  padding: 0;
   margin: 0 auto 54px;
+  border: none;
 }
 
 .range-filter {
@@ -1034,7 +1041,7 @@ footer {
   width: 80px;
   padding: 10px 10px;
   margin-left: 6px;
-  font-family: "PT Sans", "Arial", sans-serif;
+  /*font-family: "PT Sans", "Arial", sans-serif;*/
   font-size: 16px;
   text-align: center;
   color: #283136;
@@ -1208,8 +1215,6 @@ footer {
   word-break: break-all;
 }
 
-
-
 .filter-result-sorting {
   margin: 0 20px 0 0;
   padding: 0;
@@ -1278,7 +1283,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 762px;
-  margin: 0 0 28px;
+  margin: 0 0 27px;
   padding: 0;
   list-style: none;
 }
@@ -1309,8 +1314,8 @@ footer {
   position: absolute;
   top: 0;
   right: 2px;
-  width: 360px;
   height:40px;
+  width: 360px;
   background-image: url("../img/svg/browser.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1322,8 +1327,8 @@ footer {
   position: absolute;
   top: 0;
   right: 2px;
-  width: 360px;
   height:40px;
+  width: 360px;
   background-image: url("../img/svg/browser.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1415,7 +1420,7 @@ footer {
 .filter-paginator a {
   display: inline-block;
   min-width: 50px;
-  padding: 15px 21px;
+  padding: 16px 21px;
   margin: 0 5px 0 0;
   text-align: center;
   vertical-align: middle;
